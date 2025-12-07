@@ -1,3 +1,7 @@
+body {
+    background: url(/pictures/background.jpg)
+}
+
 .logo {
     width: 50px;
 }
