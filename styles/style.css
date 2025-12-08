@@ -1,7 +1,21 @@
+html  {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url(/pictures/background.jpg)
+  
 }
 
 .logo {
     width: 50px;
+}
+
+.content::first-letter {
+    font-size: 275%;
+  font-weight: bold;
+  color: indianred;
+  float: left;
+  margin-right: 6px;
+
 }
