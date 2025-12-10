@@ -8,15 +8,23 @@ body {
 }
 
 .header {
+    border: 2px solid #ccc;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-     justify-content:center;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
 }
 
 .header__menu {
     display: flex;
+    list-style: none;
     flex-direction: row;
-   /*  justify-content:center */ ;
+    justify-content:center  ;
 }
 
 .logo {
