@@ -43,3 +43,15 @@ body {
   margin-right: 6px;
 
 }
+
+.footer {
+    display: flex;
+}
+
+/* .footer_title {
+    display: inline-block;
+}
+ */
+.footer_list {
+    display: flex;
+}
